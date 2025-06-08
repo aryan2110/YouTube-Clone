@@ -2,6 +2,8 @@
 
 A static YouTube homepage clone built using HTML and CSS.
 
+🔗 [Live Demo](https://bright-froyo-24bb95.netlify.app/)
+
 ## 💡 Purpose
 
 The goal of this project was to:
