@@ -9,14 +9,34 @@ button {
   cursor: pointer;
 }
 
+.video-area {
+  width: 100%;
+}
+
+.video-area iframe {
+  width: 100%;
+  aspect-ratio: 16/9;
+  max-height: 788px;
+}
+
 .bottom-area {
   display: flex;
   justify-content: center;
   margin-top: 10px;
 }
 
+@media (max-width: 800px) {
+  .bottom-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+  }
+}
+
 .info {
-  width: 1200px;
+  width: 100%;
+  max-width: 1200px;
 }
 
 .title {
@@ -30,6 +50,15 @@ button {
   margin-top: 5px;
   justify-content: space-between;
 }
+
+@media (max-width: 650px) {
+  .channel-bar {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+  }
+}
+
 .left {
   display: flex;
 }
@@ -184,6 +213,7 @@ button {
   padding-top: 30px;
   column-gap: 15px;
   position: relative;
+  margin-bottom: 20px;
 }
 .comment-content {
   display: flex;
@@ -246,7 +276,8 @@ button {
   font-weight: 600;
 }
 .suggested {
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
   display: flex;
   flex-direction: column;
 }
@@ -256,6 +287,11 @@ button {
   justify-content: space-evenly;
   padding-top: 5px;
   padding-bottom: 10px;
+  overflow-x: auto;
+  /* enables horizontal scroll  */
+  gap: 10px;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
 }
 .but1 {
   background-color: black;
@@ -272,6 +308,7 @@ button {
   border: none;
   padding: 10px 15px 10px 15px;
   border-radius: 10px;
+  flex: 0 0 auto;
 }
 .video-suggest {
   display: flex;
