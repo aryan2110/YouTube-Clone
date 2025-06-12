@@ -7,6 +7,7 @@ A static YouTube homepage clone built using HTML and CSS.
 ## 💡 Purpose
 
 The goal of this project was to:
+
 - Practice HTML structure and semantic tags
 - Learn modern CSS styling and layout techniques (especially Flexbox)
 - Understand how real-world UI components are built
@@ -14,8 +15,9 @@ The goal of this project was to:
 ## Screenshots
 
 ### Home Page
+
 ![Home Page](./assets/home-page.png)
 
-### Video Preview Page
-![Video Preview Page](./assets/video-page.png)
+### Video Playback Page
 
+![Video Preview Page](./assets/video-page.png)
